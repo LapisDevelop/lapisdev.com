@@ -10,20 +10,29 @@
   --max-width: 1100px;
   --gap: 24px;
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+
+  color-scheme: only dark;
 }
 
 * { box-sizing: border-box; }
-html,body { height:100%; }
+
 body{
   margin:0;
   font-family:var(--font-sans);
   color:var(--color-text);
+  background-color: var(#020312);
   background:linear-gradient(180deg, var(--color-bg) 0%, #020312 80%);
   background-attachment: fixed;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   line-height:1.5;
   font-size:16px;
+}
+
+html, body {
+  height: 100vh;
+  height: 100dvh;
+  -webkit-overflow-scrolling: auto;
 }
 
 a {
@@ -112,8 +121,10 @@ a {
   width:22px;
   height:2px;
   background:currentColor;
+  color:white;
   display:block;
-  position:relative;
+  position:absolute;
+  right:32px;
 }
 .hamburger::before,
 .hamburger::after{
@@ -122,7 +133,7 @@ a {
   height:2px;
   background:currentColor;
   position:absolute;
-  left:0;
+  right:0;
 }
 .hamburger::before{ top:-6px; }
 .hamburger::after{ top:6px; }
