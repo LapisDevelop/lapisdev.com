@@ -1,21 +1,26 @@
 <header class="site-header" role="banner">
-  <div class="container header-inner">
-    <a class="brand" href="/">
-      <img src="/assets/images/logo.svg" alt="Lapis Development logo" class="logo" width="40" height="40">
-      <span class="brand-text">Lapis Development</span>
-    </a>
+    <div class="container header-inner">
+	<a class="brand" id="homepage-nav-logo" href="/">
+	    <img src="/assets/images/logo.png" alt="Lapis Development logo" class="logo" width="32" height="32">
+	    <span class="brand-text">Lapis Development</span>
+	</a>
 
-    <button id="nav-toggle" class="nav-toggle" aria-controls="site-navigation" aria-expanded="false" aria-label="{{NAV_TOGGLE_LABEL}}">
-      <span class="hamburger" aria-hidden="true"></span>
-    </button>
+	<button id="nav-toggle" class="nav-toggle" aria-controls="site-navigation" aria-expanded="false" aria-label="{{NAV_TOGGLE_LABEL}}">
+	    <span class="hamburger" aria-hidden="true"></span>
+	</button>
 
-    <nav id="site-navigation" class="site-nav" role="navigation" aria-label="Explore Lapis Development">
-      <ul class="nav-list">
-        <li><a href="/" data-nav>Home</a></li>
-        <li><a href="/about" data-nav>About</a></li>
-        <li><a href="/services" data-nav>Services</a></li>
-        <li><a href="/contact" data-nav>Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+	<nav id="site-navigation" class="site-nav" role="navigation" aria-label="Explore Lapis Development">
+	    <ul class="nav-list">
+		<li><a href="/" data-nav>Home</a></li>
+		<li><a href="/about" data-nav>About</a></li>
+		<li><a href="/services" data-nav>Services</a></li>
+		<li><a href="/contact" data-nav>Contact</a></li>
+	    </ul>
+	</nav>
+    </div>
+
+    <script>
+	if (window.location.pathname === '/') {
+	}
+    </script>
 </header>
