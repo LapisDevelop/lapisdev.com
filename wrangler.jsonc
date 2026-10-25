@@ -1,0 +1,10 @@
+{
+	"name": "lapisdev",
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"compatibility_flags": ["nodejs_als"],
+	"compatibility_date": "<2026-10-25>",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare",
+	}
+}
