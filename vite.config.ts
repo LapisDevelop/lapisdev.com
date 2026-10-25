@@ -3,9 +3,11 @@ import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
 import { defineConfig } from 'vite';
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 export default defineConfig(() => {
   return {
-    plugins: [svelte(), tailwindcss()],
+    plugins: [svelte(), tailwindcss(), cloudflare()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
