@@ -72,7 +72,7 @@ export const products = [
         version: 'Calagopus 1.6 - latest',
         storeUrl: 'https://github.com/LapisDevelop/CalagopusInstaller',
         featured: true,
-        inDevelopment: true,
+        inDevelopment: false,
         specs: [
             'Automates the installation of the Calagopus panel on your server',
             'Configures necessary dependencies and settings for optimal performance',

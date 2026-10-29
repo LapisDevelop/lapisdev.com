@@ -15,7 +15,7 @@
 <header class="sticky top-0 z-40 backdrop-blur-md bg-[#0a0a0a]/80 border-b border-white/[0.08]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-8">
         <a href="#" class="flex items-center gap-3 text-lg font-bold tracking-tight text-white whitespace-nowrap shrink-0 group">
-            <span class="w-2.5 h-2.5 rounded-full bg-blue-500 shadow-[0_0_12px_#3b82f6] transition-transform duration-300 group-hover:scale-125"></span>
+            <img src="/logo.png" alt="Lapis Development Logo" class="w-8 h-8 group-hover:ring-white/20 transition-all" />
             <span>Lapis Development</span>
         </a>
 
